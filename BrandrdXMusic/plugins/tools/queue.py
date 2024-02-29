@@ -11,7 +11,7 @@ from RenXMusic.misc import db
 from RenXMusic.utils import HottyBin, get_channeplayCB, seconds_to_min
 from RenXMusic.utils.database import get_cmode, is_active_chat, is_music_playing
 from RenXMusic.utils.decorators.language import language, languageCB
-from BrandrdXMusic.utils.inline import queue_back_markup, queue_markup
+from RenXMusic.utils.inline import queue_back_markup, queue_markup
 from config import BANNED_USERS
 
 basic = {}
