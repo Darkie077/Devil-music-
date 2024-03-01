@@ -4,7 +4,7 @@ from pyrogram.types import InlineKeyboardButton, Message
 
 from RenXMusic import app
 from RenXMusic.utils.database import get_lang, set_lang
-from BrandrdXMusic.utils.decorators import (ActualAdminCB, language, languageCB)
+from RenXMusic.utils.decorators import (ActualAdminCB, language, languageCB)
 from config import BANNED_USERS
 from strings import get_string, languages_present
 
