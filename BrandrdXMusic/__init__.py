@@ -1,8 +1,8 @@
-from BrandrdXMusic.core.bot import Hotty
-from BrandrdXMusic.core.dir import dirr
-from BrandrdXMusic.core.git import git
-from BrandrdXMusic.core.userbot import Userbot
-from BrandrdXMusic.misc import dbb, heroku
+from RenXMusic.core.bot import Hotty
+from RenXMusic.core.dir import dirr
+from RenXMusic.core.git import git
+from RenXMusic.core.userbot import Userbot
+from RenXMusic.misc import dbb, heroku
 
 from .logging import LOGGER
 
