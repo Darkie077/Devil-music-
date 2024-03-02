@@ -1,4 +1,4 @@
-from RenXMusic import app
+from BrandrdXMusic import app
 from pyrogram import Client, filters
 from pyrogram.errors import RPCError
 from pyrogram.types import ChatMemberUpdated, InlineKeyboardMarkup, InlineKeyboardButton
