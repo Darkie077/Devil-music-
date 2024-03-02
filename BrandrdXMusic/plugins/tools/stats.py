@@ -9,13 +9,13 @@ from pyrogram.types import InputMediaPhoto, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 import config
-from RenXMusic import app
-from RenXMusic.core.userbot import assistants
-from RenXMusic.misc import SUDOERS, mongodb
-from RenXMusic.plugins import ALL_MODULES
-from RenXMusic.utils.database import get_served_chats, get_served_users, get_sudoers, get_queries
-from RenXMusic.utils.decorators.language import language, languageCB
-from RenXMusic.utils.inline.stats import back_stats_buttons, stats_buttons
+from BrandrdXMusic import app
+from BrandrdXMusic.core.userbot import assistants
+from BrandrdXMusic.misc import SUDOERS, mongodb
+from BrandrdXMusic.plugins import ALL_MODULES
+from BrandrdXMusic.utils.database import get_served_chats, get_served_users, get_sudoers, get_queries
+from BrandrdXMusic.utils.decorators.language import language, languageCB
+from BrandrdXMusic.utils.inline.stats import back_stats_buttons, stats_buttons
 from config import BANNED_USERS
 
 
