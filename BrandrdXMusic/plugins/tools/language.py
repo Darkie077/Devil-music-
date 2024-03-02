@@ -2,9 +2,9 @@ from pykeyboard import InlineKeyboard
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, Message
 
-from RenXMusic import app
-from RenXMusic.utils.database import get_lang, set_lang
-from RenXMusic.utils.decorators import (ActualAdminCB, language, languageCB)
+from BrandrdXMusic import app
+from BrandrdXMusic.utils.database import get_lang, set_lang
+from BrandrdXMusic.utils.decorators import (ActualAdminCB, language, languageCB)
 from config import BANNED_USERS
 from strings import get_string, languages_present
 
