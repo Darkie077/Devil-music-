@@ -8,8 +8,8 @@ from pyrogram.types import *
 from pyrogram.enums import *
 
 #BOT FILE NAME
-from RenXMusic import app as app
-from RenXMusic.mongo.couples_db import _get_image, get_couple
+from BrandrdXMusic import app as app
+from BrandrdXMusic.mongo.couples_db import _get_image, get_couple
 
 def dt():
     now = datetime.now()
