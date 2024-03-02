@@ -4,7 +4,7 @@ from pyrogram.types import Message
 from pyrogram import filters
 from pyrogram.types import(InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto, InputMediaVideo, Message)
 from config import LOGGER_ID as LOG_GROUP_ID
-from RenXMusic import app  
+from BrandrdXMusic import app  
 
 photo = [
     "https://te.legra.ph/file/758a5cf4598f061f25963.jpg",
