@@ -4,17 +4,17 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.errors import FloodWait
 
-from RenXMusic import app
+from BrandrdXMusic import app
 from config import OWNER_ID
-from RenXMusic.utils.database import (
+from BrandrdXMusic.utils.database import (
     get_active_chats,
     get_authuser_names,
     get_client,
     get_served_chats,
     get_served_users,
 )
-from RenXMusic.utils.decorators.language import language
-from RenXMusic.utils.formatters import alpha_to_int
+from BrandrdXMusic.utils.decorators.language import language
+from BrandrdXMusic.utils.formatters import alpha_to_int
 from config import adminlist
 
 IS_BROADCASTING = False
