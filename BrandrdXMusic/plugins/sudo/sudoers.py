@@ -1,12 +1,12 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from RenXMusic import app
-from RenXMusic.misc import SUDOERS
-from RenXMusic.utils.database import add_sudo, remove_sudo
-from RenXMusic.utils.decorators.language import language
-from RenXMusic.utils.extraction import extract_user
-from RenXMusic.utils.inline import close_markup
+from BrandrdXMusic import app
+from BrandrdXMusic.misc import SUDOERS
+from BrandrdXMusic.utils.database import add_sudo, remove_sudo
+from BrandrdXMusic.utils.decorators.language import language
+from BrandrdXMusic.utils.extraction import extract_user
+from BrandrdXMusic.utils.inline import close_markup
 from config import BANNED_USERS, OWNER_ID
 
 
